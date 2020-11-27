@@ -15,13 +15,14 @@ Welcome Page
   width: 100%;
 }
 
-#welcome {
+body {
   position: relative;
   z-index: -1;
-  background-image: url(home.jpg);
-  background-size: 100%;
-  height: 100%;
-  width: 100%;
+  background-image: url("https://drive.google.com/file/d/1kx3t100VSvqfYDHCJabQoNwlFIduf493/view");
+  width: 1000px;
+  height: 500px;
+  background-position: center;
+  background-repeat: cover;
 }
 
 /*
@@ -62,8 +63,12 @@ Content
  */
 .main {
   padding-bottom: 150px;
-  color: white;
   margin-top: 250px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-text {
